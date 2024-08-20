@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h> 
+
+int main(){
+float nota1, nota2, nota3;
+
+printf("digite sua nota1:" );
+scanf("%f",&nota1);
+
+printf("digite sua nota2:" );
+scanf("%f",&nota2);
+
+printf("digite sua nota3:" );
+scanf("%f",&nota3);
+
+
+printf("sua media eh:%f",(nota1+nota2+nota3)/3);
+return 0;
+}
+
+// outra coisa:
+ {
+     float Number01, Number02
+     
+     printf("DIG01:"),("DIG02:")
+     scanf("%f",&Number01),("%f"Number02)
+     
+     printf(mult)
+ }
