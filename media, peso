@@ -1,0 +1,45 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main(){
+    
+    
+    int main() {
+    float trabalho, avaliacao, exame, media;
+    char conceito;
+
+    // Entrada de dados
+    printf("Digite a nota do trabalho: ");
+    scanf("%f", &trabalho);
+
+    printf("Digite a nota da avaliação: ");
+    scanf("%f", &avaliacao);
+
+    printf("Digite a nota do exame: ");
+    scanf("%f", &exame);
+
+    // Cálculo da média ponderada
+    media = (trabalho * 2 + avaliacao * 3 + exame * 5) / 10;
+
+    // Classificação do conceito
+    if (media >= 8.0) {
+        conceito = 'A';
+    } else if (media >= 7.0) {
+        conceito = 'B';
+    } else if (media >= 6.0) {
+        conceito = 'C';
+    } else if (media >= 5.0) {
+        conceito = 'D';
+    } else {
+        conceito = 'E';
+    }
+
+    // Saída
+    printf("Média ponderada: %.2f\n", media);
+    printf("Conceito final: %c\n", conceito);
+
+    return 0;
+}
+}
