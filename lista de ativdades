@@ -275,3 +275,30 @@ int main() {
 
     return 0;
 }
+......................................................................................................................
+
+desafio:
+
+#include <stdio.h>
+
+int main() {
+    float precoAcao1 = 24.13;
+    float precoAcao2 = 11.00;
+    float precoAcao3 = 38.65;
+
+    float dividendoAcao1 = 17.00;
+    float dividendoAcao2 = 35.00;
+    float dividendoAcao3 = 25.00;
+    float valorTotal = 1000.00;
+   int qtdAcao1 = valorTotal / precoAcao1;
+    int qtdAcao2 = valorTotal / precoAcao2;
+    int qtdAcao3 = valorTotal / precoAcao3;
+
+    printf("Quantidade máxima de ações que podem ser compradas:\n");
+    printf("Ação 1: %d\n", qtdAcao1);
+    printf("Ação 2: %d\n", qtdAcao2);
+    printf("Ação 3: %d\n", qtdAcao3);
+
+    return 0;
+}
+(...)
