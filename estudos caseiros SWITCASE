@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main(){
+	
+	int planos ;
+	
+	printf("selecione o plano correspondente:\n 1 = plano1\n 2 = plano2\n 3 = plano3\n digite a opção:");
+	scanf("%d", &planos);
+	
+	switch (planos){
+		case 1: 
+			printf("plano1 : 29,90");
+			break;
+		
+		case 2:
+			printf("plano2 : 49,90");
+			break;
+			
+			case 3:("plano3 : 79,90");
+			break;
+		
+		default:
+			printf("!APENAS OPCÃO: 1,2 E 3");
+	}
+}
+
+
+
