@@ -1,0 +1,51 @@
+#include <stdio.h>
+
+int main() {
+    
+    int materiais, i;
+    
+        printf("1 = parafusadeira\n");
+        printf("2 = furadeira\n");
+        printf("3 = esmirilhadeira\n");
+        printf("selecione um material: ");
+         scanf("%d", &materiais);
+    
+    
+    do {
+		printf("confirme sua escolha:\n");
+		printf("(1) Opção 1\n");
+		printf("(2) Opção 2\n");
+		printf("(3) Opção 3\n");
+		scanf("%d", &i);
+		if(i<1 || i>3){
+			printf("Opção invalida!, Escolha uma das opções abaixo!\n");
+		}
+	}while((i<1) || (i>3));
+
+	printf("Você escolheu a opção %d\n", i);
+	
+    
+    
+    switch (i)
+    {
+        
+        case 1:
+            printf("parabens agora tu tem uma parafusadeira");
+            break;
+            
+        case 2:
+            printf("parabens agora tu tem uma furadeira");
+            break;
+            
+        case 3: 
+            printf("parabens agora tu tem uma esmirilhadeira");
+            break;
+            
+        default:
+        printf("comprou nada");
+            
+    }
+    
+    
+            
+}
